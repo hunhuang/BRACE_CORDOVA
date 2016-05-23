@@ -1,0 +1,17 @@
+{
+  "name": "www",
+  "homepage": "https://github.com/don/BluetoothSerial",
+  "authors": [
+    "Loi <loi@gmail.com>"
+  ],
+  "description": "",
+  "main": "",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}

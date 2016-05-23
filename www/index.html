@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+    <title>BRACE BLUE</title>
+    <link href="ionic/css/ionic.css" rel="stylesheet">
+    <script type='text/javascript' src='js/jquery.min.js'></script>
+    <script type="text/javascript" src="js/smoothie.js"></script>
+    <script type="text/javascript" src="cordova.js"></script>
+    <script type="text/javascript" src="js/index.js"></script>
+    <script>
+        $(function() {
+            console.log( "ready!" );
+            app.initialize();
+        });
+
+    </script>
+</head>
+
+<body>
+
+    <ion-content has-bouncing="true" style="margin:10px">
+        <button class='button button-positive' id="connectButton">Connect</button>
+        <ul style="margin: 10px">
+        <li><canvas id="mycanvas1" width="100%" height="100"></canvas></li>
+            <li><canvas id="mycanvas2" width="100%" height="100"></canvas></li>
+            <li><canvas id="mycanvas3" width="100%" height="100"></canvas></li>
+        </ul>
+        <div id="message">Hello.</div>
+    </ion-content>
+
+
+</body>
+</html>
